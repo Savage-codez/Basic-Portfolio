@@ -1,5 +1,4 @@
-
- html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -12,74 +11,83 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-/* end of reset here */
-
 * { 
     outline: 1px dotted black;
 }
 
-header {
-    width: 200px;
-    height: 50px;
+Body{
+    background: url("country-quilt.png");
+    text-align: center;
+}
+
+#header{
+    background-color: white;
+}
+
+#Name{
+    margin-left: 220px; 
     float: left;
-    margin: 20px;
     padding: 20px;
-} 
+    font-family: 'Georgia', Times, 'Times New Roman', Serif;
+    font-size: 30px;
+    width: 250px;
+    text-align: center;
+    background: #4aaaa5;
+    color: white;
 
-#content {
-    margin: 20px;
-    padding: 20px;
-    
 
 }
 
-#about {
+#nav{
+Float: right;
+padding: 20px;
+background: #fff;
+margin-top: 35px;
+padding: 0;
+margin: 30px;
+margin-right: 150px;
+color:
+}
+
+#section{
+    Clear:both;
+    background: white;
+    margin-left: 250px;
+    height:600px;
+    margin-top:80px;
+}
+
+#About{
+    margin-left: 20px;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', Serif;
+    font-size:30px;
+    float: left;
+    margin-top: 20px;
+
+}
+
+#proPic{
+    margin: 40px;
+    padding: 20px;
     clear: both;
-    height: 30px;
-    width: 100px;
-    padding: 20px;
-    margin: 20px;
-    
+    width: 150px;
+    height: 150px;
+    float: left;
 }
 
-
-.topnav {
-    width: auto;
-    float: right;
-    margin: 20px;
+#paragraph{
+    width: 900px;
+    height: 350px;
+    margin: 40px;
     padding: 20px;
+    float: left;
 }
 
- footer {
-     clear: both;
- }

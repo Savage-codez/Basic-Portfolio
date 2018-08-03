@@ -5,45 +5,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Code like a Pro</title>
+    <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div id="banner">
-        <header id="name">
-            <h1>Herculano Ramos</h1>
-        </header>
-        <div id="banner"></div>
-                
-                <div class="topnav">
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a class="active" href="contact.html">Contact</a>
-                    
-                </div>
-    </div>
-    <div class="container">
-        <form action="action_page.php">
 
-            <label for="fname">Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <nav id="nav"></nav>
 
-            <label for="lname">E-mail</label>
-            <input type="text" id="email" name="email" placeholder="E-mail..">
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <header id="header">
+        <h1 id="Name">Herculano Ramos</h1>
+    </header>
 
-            <input type="submit" value="Submit">
+    <a href="index.html">About</a>
+    <a class="active" href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
 
-        </form>
-    </div>
+    </nav>
+
+    <section id="Contact">
+
+
+        <h2>Contact</h2>
+
+
+        <div class="container">
+            <form action="action_page.php">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+
+                <label for="name">Email</label>
+                <input type="text" id="email" name="Email" placeholder="Email..">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+    </section>
+
+    <footer id="footer">
+        <p>Copyrite&copy;</p>
+    </footer>
+
 
 </body>
-<div>
-    <footer>
-        copyright
-    </footer>
-</div>
 
 </html>
